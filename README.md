@@ -1,6 +1,4 @@
 # EM-Algorithm
-Implementation of the EM-Algorithm for learning purposes
-
 Live demo: https://colab.research.google.com/drive/18MbR-Gvcvq126hJ-tmkszqkHPHqOBRCb#scrollTo=z3F-zrCAar6i
 
 ![gaussian](output/gaussian.png)
