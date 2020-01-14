@@ -8,7 +8,6 @@ class ExpectationMaximisation:
         self.one = first_gaussian
         self.two = second_gaussian
         self.mix = mix
-        self.log_likelihood = 0.0
 
     def fit(self, n=1):
         for i in range(0, n):
@@ -26,7 +25,6 @@ class ExpectationMaximisation:
             prob_from_first = prob_from_first / total
             prob_from_second = prob_from_second / total
 
-            self.log_likelihood = self.log_likelihood + math.log(total)
             yield (prob_from_first, prob_from_second)
 
     def __maximisation_step(self, weights):
